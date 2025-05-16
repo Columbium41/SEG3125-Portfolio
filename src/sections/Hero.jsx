@@ -1,6 +1,6 @@
 function HeroSection() {
     return (
-      <section id="home" className="pt-32 pb-20 md:pt-40 md:pb-28">
+      <section id="home" className="min-h-screen pt-40 pb-24 md:pt-50 md:pb-36">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
