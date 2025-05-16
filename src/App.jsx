@@ -1,7 +1,9 @@
+import Navbar from "./sections/Navbar"
+
 function App() {
   return (
-    <div className="text-3xl font-bold underline">
-      Test tailwind
+    <div className="min-h-screen bg-white">
+      <Navbar />
     </div>
   )
 }
