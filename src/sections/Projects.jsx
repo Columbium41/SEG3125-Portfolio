@@ -6,28 +6,28 @@ function ProjectsSection() {
     const projects = [
       {
         title: "Service Site",
-        description: "A service site.",
+        description: "A service site (TODO).",
         tags: ["Tag1", "Tag2", "Tag3"],
         githubUrl: "#projects",
         url: "#projects",
       },
       {
         title: "Game",
-        description: "A game.",
+        description: "A game site (TODO).",
         tags: ["Tag1", "Tag2", "Tag3"],
         githubUrl: "#projects",
         url: "#projects",
       },
       {
         title: "E-Commerce Site",
-        description: "An E-Commerce Site.",
+        description: "An E-Commerce Site (TODO).",
         tags: ["Tag1", "Tag2", "Tag3"],
         githubUrl: "#projects",
         url: "#projects",
       },
       {
         title: "Analytics Site",
-        description: "An analytics site.",
+        description: "An analytics site (TODO).",
         tags: ["Tag1", "Tag2", "Tag3"],
         githubUrl: "#projects",
         url: "#projects",

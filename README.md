@@ -1,12 +1,21 @@
-# React + Vite
+# SEG3125 Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is my SEG3125 Portfolio website built with React & TailwindCSS. I focused on having a clean monochrome aesthetic with ease of navigation which allows for a hassle-free user experience. 
 
-Currently, two official plugins are available:
+## Link to Portfolio
+[https://charleyliu-seg3125-portfolio.netlify.app/](https://charleyliu-seg3125-portfolio.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Node Packages I used
+- React (JavaScript library/framework)
+- React Router (Support for routing in React)
+- TailwindCSS (CSS library)
+- Slugify (Converts strings into a URL friendly format)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to run the website locally
+```bash
+git clone https://github.com/Columbium41/SEG3125-Portfolio.git
+cd seg3125-portfolio
+npm i
+npm run dev # runs on localhost:5173 by default
+```

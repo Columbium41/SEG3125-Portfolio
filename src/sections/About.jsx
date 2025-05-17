@@ -34,7 +34,7 @@ function AboutSection() {
               When I'm not programming, I like to engage in hobbies such as cooking, video games, table tennis, and weightlifting.
             </p>
             <div className="mt-10">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Skills</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">My Web Skills</h3>
               <div className="flex flex-wrap gap-2">
                 {skills.map((skill) => (
                   <Tag key={skill} tag={skill} />

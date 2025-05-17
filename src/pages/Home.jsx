@@ -3,6 +3,7 @@ import Hero from "../sections/Hero";
 import About from "../sections/About";
 import Experience from "../sections/Experience";
 import Projects from "../sections/Projects";
+import Footer from "../components/Footer";
 
 function Home() {
     return (
@@ -12,6 +13,7 @@ function Home() {
         <About />
         <Experience />
         <Projects /> 
+        <Footer />
       </div>
     );
 }

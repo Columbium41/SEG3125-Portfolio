@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom"
 import Navbar from "../components/Navbar"
 import { HashLink } from "react-router-hash-link"
+import Footer from "../components/Footer"
 
 function ProjectPage() {
   const { projectName } = useParams()
@@ -35,6 +36,8 @@ function ProjectPage() {
           </div>
         </div>
       </main>
+
+      <Footer />
     </div>
   )
 }
