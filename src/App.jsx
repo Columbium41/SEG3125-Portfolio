@@ -1,16 +1,15 @@
-import Navbar from "./sections/Navbar";
-import Hero from "./sections/Hero";
-import About from "./sections/About";
-import Experience from "./sections/Experience";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
+import Project from "./pages/Project";
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/project/:projectName" element={<Project />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   )
 }
 

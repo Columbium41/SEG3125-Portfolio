@@ -1,3 +1,5 @@
+import Tag from "../components/Tag"
+
 function AboutSection() {
   const skills = [
     "HTML",
@@ -35,9 +37,7 @@ function AboutSection() {
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Skills</h3>
               <div className="flex flex-wrap gap-2">
                 {skills.map((skill) => (
-                  <span key={skill} className="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-sm">
-                    {skill}
-                  </span>
+                  <Tag key={skill} tag={skill} />
                 ))}
               </div>
             </div>

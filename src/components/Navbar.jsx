@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { HashLink } from "react-router-hash-link";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,18 +13,18 @@ function Navbar() {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-4">
-              <a href="#home" className="px-3 py-2 text-sm font-medium hover:text-gray-900">
+              <HashLink to="/#home" className="px-3 py-2 text-sm font-medium hover:text-gray-900">
                 Home
-              </a>
-              <a href="#about" className="px-3 py-2 text-sm font-medium hover:text-gray-900">
+              </HashLink>
+              <HashLink to="/#about" className="px-3 py-2 text-sm font-medium hover:text-gray-900">
                 About
-              </a>
-              <a href="#experience" className="px-3 py-2 text-sm font-medium hover:text-gray-900">
+              </HashLink>
+              <HashLink to="/#experience" className="px-3 py-2 text-sm font-medium hover:text-gray-900">
                 Experience
-              </a>
-              <a href="#projects" className="px-3 py-2 text-sm font-medium hover:text-gray-900">
+              </HashLink>
+              <HashLink to="/#projects" className="px-3 py-2 text-sm font-medium hover:text-gray-900">
                 Projects
-              </a>
+              </HashLink>
             </div>
           </div>
           <div className="flex md:hidden">
@@ -49,34 +50,34 @@ function Navbar() {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <a
-                href="#home"
+              <HashLink
+                to="/#home"
                 className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-100"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
-              </a>
-              <a
-                href="#about"
+              </HashLink>
+              <HashLink
+                to="/#about"
                 className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-100"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
-              </a>
-              <a
-                href="#experience"
+              </HashLink>
+              <HashLink
+                to="/#experience"
                 className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-100"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Experience
-              </a>
-              <a
-                href="#projects"
+              </HashLink>
+              <HashLink
+                to="/#projects"
                 className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-100"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Projects
-              </a>
+              </HashLink>
             </div>
           </div>
         )}
