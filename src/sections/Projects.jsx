@@ -5,11 +5,12 @@ import Tag from "../components/Tag"
 function ProjectsSection() {
     const projects = [
       {
-        title: "Service Site",
-        description: "A service site (TODO).",
-        tags: ["Tag1", "Tag2", "Tag3"],
-        githubUrl: "#projects",
-        url: "#projects",
+        title: "Drive Academy",
+        description: "A service site which allows you to book driving lessons.",
+        tags: ["React", "Next"],
+        githubUrl: "https://github.com/ChristopherLit/seg3125-assignment2",
+        url: "https://seg3125-assignment2.vercel.app",
+        image: "https://seg3125-assignment2.vercel.app/car.png"
       },
       {
         title: "Game",
@@ -42,18 +43,13 @@ function ProjectsSection() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {projects.map((project, index) => (
                 <div key={index} className="bg-white rounded-xl overflow-hidden shadow-md transition-transform hover:scale-105">
-                  <Link
-                    to={`/project/${slugify(project.title, { lower: true })}`}
-                    className="cursor-pointer"
-                  >
-                    <div className="h-48 relative">
-                      <img
-                        src={project.image || "placeholder.png"}
-                        alt={project.title}
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  </Link>
+                  <div className="h-48 relative">
+                    <img
+                      src={project.image || "placeholder.png"}
+                      alt={project.title}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
 
                   <div className="px-6 pt-6 pb-3">
                     <h3 className="text-xl font-bold text-gray-900 mb-2">{project.title}</h3>
@@ -64,7 +60,7 @@ function ProjectsSection() {
                       ))}
                     </div>
                     <div className="flex space-x-4">
-                    <a href={project.githubUrl} className="text-gray-600 hover:text-gray-900 flex items-center">
+                    <a href={project.githubUrl} className="text-gray-600 hover:text-gray-900 flex items-center" target="_blank">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -82,7 +78,7 @@ function ProjectsSection() {
                       </svg>
                       <span className="text-sm">Code</span>
                     </a>
-                    <a href={project.url} className="text-gray-600 hover:text-gray-900 flex items-center">
+                    <a href={project.url} className="text-gray-600 hover:text-gray-900 flex items-center" target="_blank">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
