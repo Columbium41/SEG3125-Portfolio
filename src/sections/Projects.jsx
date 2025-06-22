@@ -13,11 +13,11 @@ function ProjectsSection() {
         image: "https://seg3125-assignment2.vercel.app/car.png"
       },
       {
-        title: "Game",
-        description: "A game site (TODO).",
-        tags: ["Tag1", "Tag2", "Tag3"],
-        githubUrl: "#projects",
-        url: "#projects",
+        title: "Sequence Memory Game",
+        description: "A game in which you click a set of sqaures in a specific sequence.",
+        tags: ["React", "Tailwind"],
+        githubUrl: "https://github.com/Columbium41/SEG3125-Sequence-Memory-Game",
+        url: "https://seg3125-sequence-memory-game.netlify.app/",
       },
       {
         title: "E-Commerce Site",
