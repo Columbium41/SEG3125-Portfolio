@@ -18,7 +18,7 @@ function ProjectsSection() {
         tags: ["React", "Tailwind"],
         githubUrl: "https://github.com/Columbium41/SEG3125-Sequence-Memory-Game",
         url: "https://seg3125-sequence-memory-game.netlify.app/",
-        image: "/src/assets/sequence-memory.png"
+        image: "/sequence-memory.png"
       },
       {
         title: "E-Commerce Site",
