@@ -26,6 +26,7 @@ function ProjectsSection() {
         tags: ["Next.js", "React", "Tailwind"],
         githubUrl: "https://github.com/Columbium41/SEG3125-Keyboard-Site",
         url: "https://seg-3125-keyboard-site.vercel.app/",
+        image: "/keycraft.png"
       },
       {
         title: "Analytics Site",
