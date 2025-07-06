@@ -21,11 +21,11 @@ function ProjectsSection() {
         image: "/sequence-memory.png"
       },
       {
-        title: "E-Commerce Site",
-        description: "An E-Commerce Site (TODO).",
-        tags: ["Tag1", "Tag2", "Tag3"],
-        githubUrl: "#projects",
-        url: "#projects",
+        title: "KeyCraft",
+        description: "An mechanical keyboard E-Commerce Site.",
+        tags: ["Next.js", "React", "Tailwind"],
+        githubUrl: "https://github.com/Columbium41/SEG3125-Keyboard-Site",
+        url: "https://seg-3125-keyboard-site.vercel.app/",
       },
       {
         title: "Analytics Site",
